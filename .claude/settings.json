@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Edit",
+      "Write",
+      "Read",
+      "WebFetch"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)"
+    ],
+    "ask": [],
+    "plansDirectory": "./.claude/plans",
+    "additionalDirectories": [
+      "./.claude",
+      "./.claude/completed",
+      "./.claude/progress",
+      "./.claude/analysis",
+      "./.claude/plans"
+    ]
+  }
+}
